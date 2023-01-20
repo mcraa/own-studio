@@ -9,5 +9,6 @@ RUN apt-get update && apt-get install -y \
 RUN mkdir -p /root/.config/obs-studio
 
 COPY global.ini /root/.config/obs-studio/global.ini
+COPY ./basic /root/.config/obs-studio/basic
 
 CMD xvfb-run obs
