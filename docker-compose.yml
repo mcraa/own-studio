@@ -2,10 +2,9 @@ version: '2'
 
 services:  
   nginx:
-    image: nginx # need dockerfile to add config and rtmp module
+    build: ./nginx
     ports:
-      - "1883:1883"
-    restart: always
+      - "1935:1935"
  
   obs:
     build: ./obs
