@@ -20,3 +20,19 @@ erDiagram
     OBS ||--o{ FB : receives
     OBS ||--o{ RTMP_OUT : receives
 ```
+
+### Usage
+
+```shell
+docker compose up -d
+```
+
+1. Navigate to http://localhost:5000/
+2. Connect to the OBS Studio:
+
+| | |
+|---|---|
+|URL|ws://localhost:4455|
+|Password|abc123|
+
+You can change the OBS Studio password in `global.ini` (or disable it) before starting containers.
