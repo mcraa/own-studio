@@ -1,0 +1,3 @@
+[submodule "ui/obs-web"]
+	path = ui/obs-web
+	url = https://github.com/Niek/obs-web.git
