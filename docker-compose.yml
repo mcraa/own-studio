@@ -12,6 +12,6 @@ services:
       - 4455:4455
 
   studio-ui:
-    image: ghcr.io/niek/obs-web
+    build: ./ui
     ports:
       - 5000:5000
